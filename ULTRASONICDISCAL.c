@@ -26,7 +26,7 @@
 #define buzzer RC2
 #define LCD PORTD
 int count = 0, d1 = 0, dis = 0, loop=0, dis1 = 0, dis2 = 0, dis3 = 0, dis4 = 0, c1 = 0, c2 = 0, c3 = 0, c4 = 0, time = 0;
-char str1[10] = {"Distance"};
+char str1[10] = {"Distanc"};
 float time2 = 0,time1 = 0;
 void lcd(char data, char value)
 {
